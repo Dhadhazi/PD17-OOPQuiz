@@ -5,6 +5,3 @@ class Question:
 
     def check_answer(self, answer):
         return answer == self.answer
-
-    def get_question(self):
-        return self.text
